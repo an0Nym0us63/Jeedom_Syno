@@ -1,7 +1,7 @@
 #!/bin/sh
 chmod 777 /dev/tty*
-wget --no-check-certificate https://github.com/sarakha63/Jeedom_Syno/raw/master/Chroot/sources.list
-mv sources.list /etc/apt/
+#wget --no-check-certificate https://github.com/sarakha63/Jeedom_Syno/raw/master/Chroot/sources.list
+#mv sources.list /etc/apt/
 apt-get update
 apt-get upgrade
 apt-get install sudo
